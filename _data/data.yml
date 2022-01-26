@@ -3,240 +3,239 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Juan Pablo Royo Sales
-    tagline: Haskell Developer - Software Engineer - Architect
-    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Juan Pablo Royo Sales
+  tagline: Haskell Developer - Software Engineer - Architect
+  avatar: profile.jpeg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: juanpablo.royo@gmail.com
-    website: jproyo.github.io #do not add http://
-    linkedin: juanpabloroyo
-    github: jproyo
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@juanpabloroyo'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+  # Sidebar links
+  email: juanpablo.royo@gmail.com
+  website: jproyo.github.io #do not add http://
+  linkedin: juanpabloroyo
+  github: jproyo
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter: "@juanpabloroyo"
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
 
-    languages:
-      - idiom: Spanish
-        level: Native
+  languages:
+    - idiom: Spanish
+      level: Native
 
-      - idiom: English
-        level: Proficiency
+    - idiom: English
+      level: Proficiency
 
-    interests:
-      - item: Running
-        link:
+  interests:
+    - item: Running
+      link:
 
-      - item: Reading
-        link:
+    - item: Reading
+      link:
 
-      - item: Science
-        link:
+    - item: Science
+      link:
 
-      - item: Fitness
-        link:
+    - item: Fitness
+      link:
 
-      - item: Martial Arts
-        link:
+    - item: Martial Arts
+      link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      I am a passionate software developer with 15+ years of experience in Software Engineering and Development. During my profesional career I have been involved in many different types of solutions and companies from Enterprise traditional such as Financial, Telecommunication, Retail, Traveling to Startups companies lately.
-      <br/>
-      Some years ago I got tired from Java, as i supposed many of Java devs also did :D, and decided to start learning other languages searching a more efficient and formal (in a mathematical sense) approach to solve software problems. Obviously this kind of search led into Functional Programming languages and Haskell in particular. I have been researching, learning and doing things in FP for the last 5 years.
-      <br/>
-      Apart from doing and learning specific things in Software Development, i also love researching about Science, Math and CS theories in general.
-      <br/>
-      During my professional career I have also had the opportunity to lead teams. I consider myself a person with both technical and interpersonal skills which leads me to communicate better with my colleagues to create or maintain a great work atmosphere.
+  title: Career Profile
+  summary: |
+    I am a passionate software developer with 15+ years of experience in Software Engineering and Development. During my profesional career I have been involved in many different types of solutions and companies from Enterprise traditional such as Financial, Telecommunication, Retail, Traveling to Startups companies lately.
+    <br/>
+    Some years ago I got tired from Java, as i supposed many of Java devs also did :D, and decided to start learning other languages searching a more efficient and formal (in a mathematical sense) approach to solve software problems. Obviously this kind of search led into Functional Programming languages and Haskell in particular. I have been researching, learning and doing things in FP for the last 5 years.
+    <br/>
+    Apart from doing and learning specific things in Software Development, i also love researching about Science, Math and CS theories in general.
+    <br/>
+    During my professional career I have also had the opportunity to lead teams. I consider myself a person with both technical and interpersonal skills which leads me to communicate better with my colleagues to create or maintain a great work atmosphere.
 
 education:
-    - degree: MSc in Innovation and Research in Informatics
-      university: Universitat Politécnica de Catalunya
-      time: 2019 - Present
-      details: |
-        I am doing a Master on Research scecialized in Advance Computing.
-    - degree: BSc in Computer Science
-      university: Universidad CAECE
-      time: 2005 - 2009
-      details:
+  - degree: MSc in Innovation and Research in Informatics
+    university: Universitat Politécnica de Catalunya
+    time: Sep 2019 - Oct 2021
+    details:
+  - degree: BSc in Computer Science
+    university: Universidad CAECE
+    time: 2005 - 2009
+    details:
 experiences:
-    - role: Haskell Developer
-      time: May 2019 - Present
-      company: <a href="https://coinweb.io" target="_blank">Coinweb.io</a>
-      techs: Haskell, Stack, Servant, QuickCheck, Lenses, Aeson, Beam, Kubernetes, Docker, ArgoCD, AWS
-      details: |
-        Haskell Developer in Backend team building Company Blockchain products.
-        Main of the tooling and libs we are using are: Stack, Servant, Beam, QuickCheck, Lenses, Aeson.
-        Also we try to do some Type Level Programming apart from vanilla Haskell.
-    - role: Senior Software Engineer
-      time: Nov 2018 - May 2019
-      company: Schibsted Media Group
-      techs: Scala, SBT, Cats, http4s, fs2, monocle, circe, Kafka, Spark, Kubernetes, Docker, AWS
-      details: |
-        Senior Software Engineer in Data Personalisation Team helping to build scalable recommendations components for Company Marketplaces.
-        Developing our solutions with Scala with a FP approach using cats, http4s, monocle and others. Others tools we use are Kafka, Spark and kubernetes.
-    - role: Senior Software Engineer
-      time: Oct 2012 - Oct 2018
-      company: <a href="https://mxhero.com" target="_blank">mxHero</a>
-      techs: |
-        Scala: Akka, Akka HTTP, Circe, op-rabbit, logback, pureconfig, sbt<br/>
-        Java: Development in Java code of our Engine Core product. Java 8, Spring, Maven, OSGi, Hazelcast<br/>
-        Databases: Couchbase and DynamoDB as a NoSQL DB and MySQL<br/>
-        Other technologies: Couchbase, AWS (EC2, ECS, Route53, Load Balancers, RDS, SQS, DynamoDB), Docker, Puppet<br/>
-        Third Party API Integrations: Google APIs (Drive, Admin SDK, Plus, etc.), Dropbox, Box, OneDrive, Sharefile
-      details: |
-        My main role in this company was software developer and Technical Leader taking care of technical decisions for the whole infrastructure. Among others i have been working developing Chrome Extension which is 100% JS, Dashboard Web 100% built on Reactive JS Framework Mithril.js and Backend Core Business in RESTFul APIs. I have scaled out the product to be a cloud solution which it was only on premise before my involvement in the company, modularize Architecture and implement an Agile methodology. Building Microservices to modularize Architecture with Docker. Building Continuous Delivery Process. Task Management System with Scala.
-    - role: Senior Software Engineer
-      time: Apr 2012 - Oct 2012
-      company: <a href="https://www.despegar.com.ar" target="_blank">Despegar.com</a>
-      techs: Java, Spring, Maven, Unit Testing
-      details: |
-        Scrum Team member and Developer of systems and solutions in this very big .com Company.
-        Most important achievements were develop a suite of Automate Functional Tests to give the product a robust framework for each Sprint reducing bugs and issues.
-    - role: Tech Lead Engineer
-      time: Nov 2011 - Apr 2012
-      company: Zauber
-      type: exp-old
-      techs: Java, Spring, Maven, Netty, HBase, Hadoop, Ruby, Sinatra, RVM, RSpec
-      details: |
-        Tech Lead Engineer. Advice in incorporation of Ruby Technologies such as Sinatra, RVM, Ruby on Rails, RSpec, DataMapper, Nokogiri, etc.
-    - role: Software Architect / Tech Lead
-      time: Dec 2009 - Nov 2011
-      company: IBM
-      techs: |
-        Java: Java, Spring, Wicket, EJB Message Beans, Maven, OpenJPA <br/>
-        Other tools: Enterprise Architect, MSProject, WebSphere Message Broker, MQSeries, WebSphere Application Server.
-      details: |
-        My main role was led development team of 8 people from a technical point of view. I was involved in two big projects, one as Technical Leader for the implementation of Credit Card Processor Solution in a very important Financial Company and other as an Architect providing SOA solution in a very important Bank.
-    - role: Software Architect / Tech Lead
-      time: Jan 2009 - Dec 2009
-      company: Avaya
-      type: exp-old
-      techs: Java, Spring, Spring-WS, Maven, Hibernate, Junit, Easymock, JMS, JSCH, Maven, Echo2, Oracle DB
-      details: |
-        Technical Leader in a Claim Software Solution for an important Telco Carrier.
-        Implementation of the Solution in time and within the budget.
-        Technical Leader in a Automation Batch Solution for an important Company.
-        Technical Leader in a Survey Framework Solution.
+  - role: Haskell Developer
+    time: May 2019 - Present
+    company: <a href="https://coinweb.io" target="_blank">Coinweb.io</a>
+    techs: Haskell, Stack, Servant, QuickCheck, Lenses, Aeson, Beam, Kubernetes, Docker, ArgoCD, AWS
+    details: |
+      Haskell Developer in Backend team building Company Blockchain products.
+      Main of the tooling and libs we are using are: Stack, Servant, Beam, QuickCheck, Lenses, Aeson.
+      Also we try to do some Type Level Programming apart from vanilla Haskell.
+  - role: Senior Software Engineer
+    time: Nov 2018 - May 2019
+    company: Schibsted Media Group
+    techs: Scala, SBT, Cats, http4s, fs2, monocle, circe, Kafka, Spark, Kubernetes, Docker, AWS
+    details: |
+      Senior Software Engineer in Data Personalisation Team helping to build scalable recommendations components for Company Marketplaces.
+      Developing our solutions with Scala with a FP approach using cats, http4s, monocle and others. Others tools we use are Kafka, Spark and kubernetes.
+  - role: Senior Software Engineer
+    time: Oct 2012 - Oct 2018
+    company: <a href="https://mxhero.com" target="_blank">mxHero</a>
+    techs: |
+      Scala: Akka, Akka HTTP, Circe, op-rabbit, logback, pureconfig, sbt<br/>
+      Java: Development in Java code of our Engine Core product. Java 8, Spring, Maven, OSGi, Hazelcast<br/>
+      Databases: Couchbase and DynamoDB as a NoSQL DB and MySQL<br/>
+      Other technologies: Couchbase, AWS (EC2, ECS, Route53, Load Balancers, RDS, SQS, DynamoDB), Docker, Puppet<br/>
+      Third Party API Integrations: Google APIs (Drive, Admin SDK, Plus, etc.), Dropbox, Box, OneDrive, Sharefile
+    details: |
+      My main role in this company was software developer and Technical Leader taking care of technical decisions for the whole infrastructure. Among others i have been working developing Chrome Extension which is 100% JS, Dashboard Web 100% built on Reactive JS Framework Mithril.js and Backend Core Business in RESTFul APIs. I have scaled out the product to be a cloud solution which it was only on premise before my involvement in the company, modularize Architecture and implement an Agile methodology. Building Microservices to modularize Architecture with Docker. Building Continuous Delivery Process. Task Management System with Scala.
+  - role: Senior Software Engineer
+    time: Apr 2012 - Oct 2012
+    company: <a href="https://www.despegar.com.ar" target="_blank">Despegar.com</a>
+    techs: Java, Spring, Maven, Unit Testing
+    details: |
+      Scrum Team member and Developer of systems and solutions in this very big .com Company.
+      Most important achievements were develop a suite of Automate Functional Tests to give the product a robust framework for each Sprint reducing bugs and issues.
+  - role: Tech Lead Engineer
+    time: Nov 2011 - Apr 2012
+    company: Zauber
+    type: exp-old
+    techs: Java, Spring, Maven, Netty, HBase, Hadoop, Ruby, Sinatra, RVM, RSpec
+    details: |
+      Tech Lead Engineer. Advice in incorporation of Ruby Technologies such as Sinatra, RVM, Ruby on Rails, RSpec, DataMapper, Nokogiri, etc.
+  - role: Software Architect / Tech Lead
+    time: Dec 2009 - Nov 2011
+    company: IBM
+    techs: |
+      Java: Java, Spring, Wicket, EJB Message Beans, Maven, OpenJPA <br/>
+      Other tools: Enterprise Architect, MSProject, WebSphere Message Broker, MQSeries, WebSphere Application Server.
+    details: |
+      My main role was led development team of 8 people from a technical point of view. I was involved in two big projects, one as Technical Leader for the implementation of Credit Card Processor Solution in a very important Financial Company and other as an Architect providing SOA solution in a very important Bank.
+  - role: Software Architect / Tech Lead
+    time: Jan 2009 - Dec 2009
+    company: Avaya
+    type: exp-old
+    techs: Java, Spring, Spring-WS, Maven, Hibernate, Junit, Easymock, JMS, JSCH, Maven, Echo2, Oracle DB
+    details: |
+      Technical Leader in a Claim Software Solution for an important Telco Carrier.
+      Implementation of the Solution in time and within the budget.
+      Technical Leader in a Automation Batch Solution for an important Company.
+      Technical Leader in a Survey Framework Solution.
 
-    - role: Software Architect / Tech Lead
-      time: Jan 2009 - Dec 2009
-      company: Avaya
-      type: exp-old
-      techs: Java, Spring, Spring-WS, Maven, Hibernate, Junit, Easymock, JMS, JSCH, Maven, Echo2, Oracle DB
-      details: |
-        Technical Leader in a Claim Software Solution for an important Telco Carrier.
-        Implementation of the Solution in time and within the budget.
-        Technical Leader in a Automation Batch Solution for an important Company.
-        Technical Leader in a Survey Framework Solution.
+  - role: Software Architect / Tech Lead
+    time: Jan 2009 - Dec 2009
+    company: Avaya
+    type: exp-old
+    techs: Java, Spring, Spring-WS, Maven, Hibernate, Junit, Easymock, JMS, JSCH, Maven, Echo2, Oracle DB
+    details: |
+      Technical Leader in a Claim Software Solution for an important Telco Carrier.
+      Implementation of the Solution in time and within the budget.
+      Technical Leader in a Automation Batch Solution for an important Company.
+      Technical Leader in a Survey Framework Solution.
 
-    - role: Software Architect
-      time: May 2008 - Dec 2008
-      company: Galicia's Bank
-      type: exp-old
-      techs: Websphere Process Server, Oracle BPM, SAP BPM, Axis2, SoapUI, JAXB, JAX-WS, Spring-WS, Websphere Application Server, ARIS Aqualogic Service Bus, J2EE, Wicket, Spring, Hibernate, Maven, JUnit, HttpUnit, Jmeter, Enterprise Architect, DB2
-      details: |
-        Advice in BPMS acquisition. Implement first SOA / BPM Project in the Bank. Advice about the best Methodology to follow in every SOA/BPM project. Define best practices and patterns in the SOA Development and deployment.
+  - role: Software Architect
+    time: May 2008 - Dec 2008
+    company: Galicia's Bank
+    type: exp-old
+    techs: Websphere Process Server, Oracle BPM, SAP BPM, Axis2, SoapUI, JAXB, JAX-WS, Spring-WS, Websphere Application Server, ARIS Aqualogic Service Bus, J2EE, Wicket, Spring, Hibernate, Maven, JUnit, HttpUnit, Jmeter, Enterprise Architect, DB2
+    details: |
+      Advice in BPMS acquisition. Implement first SOA / BPM Project in the Bank. Advice about the best Methodology to follow in every SOA/BPM project. Define best practices and patterns in the SOA Development and deployment.
 
-    - role: Software Architect
-      time: Jul 2006 - May 2008
-      company: Snoop Consulting
-      type: exp-old
-      techs: Oracle IAS App Server, Oracle Portal, Oracle DB, Struts, EJB 2.1, Axis, XSLT, Xpath, JasperReport, Enterprise Architect (EA), Scrum, Ant, Sun One App Server, Hibernate, Dojo, Spring, Struts, Maven, Oracle BPEL.
-      details: |
-        My main role was Enterprise Architect and IT Consultant.
-        Intranet Travelling and Tourism company Development and refactoring. I was in charge of the development in the last phase of the project and in the architectural definition of the first refactoring phase.
-        Design and development of dynamic reporting tool for a prestigious financial company to show the rate and qualification clients profile.
-        SOA Architect and Consultant in CRM Custom application for a prestigious telecommunication company. I was in charge of the interface and orchestration definition of this SOA Project.
+  - role: Software Architect
+    time: Jul 2006 - May 2008
+    company: Snoop Consulting
+    type: exp-old
+    techs: Oracle IAS App Server, Oracle Portal, Oracle DB, Struts, EJB 2.1, Axis, XSLT, Xpath, JasperReport, Enterprise Architect (EA), Scrum, Ant, Sun One App Server, Hibernate, Dojo, Spring, Struts, Maven, Oracle BPEL.
+    details: |
+      My main role was Enterprise Architect and IT Consultant.
+      Intranet Travelling and Tourism company Development and refactoring. I was in charge of the development in the last phase of the project and in the architectural definition of the first refactoring phase.
+      Design and development of dynamic reporting tool for a prestigious financial company to show the rate and qualification clients profile.
+      SOA Architect and Consultant in CRM Custom application for a prestigious telecommunication company. I was in charge of the interface and orchestration definition of this SOA Project.
 
-    - role: Java Developer
-      time: Aug 2004 - Jul 2006
-      company: Digital Virgo
-      type: exp-old
-      techs: EJB (Message Driven Beans),MQ Series, MS SQL, JBoss, JasperReport, Hibernate, Spring, Struts, Ant, Axis, JUnit, JMeter,JCrawler.
-      details: |
-        Design and Develop Core Company CMS Platform. This platform was able to provide content through SMS and GPRS, based on the predefined set of rules which find the specific content to the specific request. It has an invoice module as well as a reporting module.
+  - role: Java Developer
+    time: Aug 2004 - Jul 2006
+    company: Digital Virgo
+    type: exp-old
+    techs: EJB (Message Driven Beans),MQ Series, MS SQL, JBoss, JasperReport, Hibernate, Spring, Struts, Ant, Axis, JUnit, JMeter,JCrawler.
+    details: |
+      Design and Develop Core Company CMS Platform. This platform was able to provide content through SMS and GPRS, based on the predefined set of rules which find the specific content to the specific request. It has an invoice module as well as a reporting module.
 
 projects:
-    title: Teaching
-    intro: >
-      Among other things I love teaching in general and I have some experience in the field.
-    assignments:
-      - title: UTN - Universidad Tecnologica Nacional - Argentina
-        link: "https://www.frgp.utn.edu.ar/"
-        tagline: "I taught Advanced Programming 1, Advanced Programming 2 and Programming Lab 5"
+  title: Teaching
+  intro: >
+    Among other things I love teaching in general and I have some experience in the field.
+  assignments:
+    - title: UTN - Universidad Tecnologica Nacional - Argentina
+      link: "https://www.frgp.utn.edu.ar/"
+      tagline: "I taught Advanced Programming 1, Advanced Programming 2 and Programming Lab 5"
 
-      - title: Universidad CAECE - Argentina
-        link: "http://www.ucaece.edu.ar/"
-        tagline: "Subjects that I have been teaching: Data Structures 1, Data Structures 2, Advanced Programming with OOP"
+    - title: Universidad CAECE - Argentina
+      link: "http://www.ucaece.edu.ar/"
+      tagline: "Subjects that I have been teaching: Data Structures 1, Data Structures 2, Advanced Programming with OOP"
 
 publications:
-    title: Certifications
-    intro:
-    papers:
-      - title: Cambridge English Level 1 Certificate in ESOL International (First)
-        link: "#"
-        authors: Cambridge Assesment English
-        conference: Jul 2019
+  title: Certifications
+  intro:
+  papers:
+    - title: Cambridge English Level 1 Certificate in ESOL International (First)
+      link: "#"
+      authors: Cambridge Assesment English
+      conference: Jul 2019
 
-      - title: Big Data Analysis with Scala and Spark
-        link: "https://www.coursera.org/account/accomplishments/verify/UJ6SDKMKZA3N"
-        authors: Coursera
-        conference: Oct 2017
+    - title: Big Data Analysis with Scala and Spark
+      link: "https://www.coursera.org/account/accomplishments/verify/UJ6SDKMKZA3N"
+      authors: Coursera
+      conference: Oct 2017
 
-      - title: Functional Program Design in Scala
-        link: "https://www.coursera.org/account/accomplishments/verify/LWFNHTAF8WNW"
-        authors: Coursera
-        conference: Sep 2017
+    - title: Functional Program Design in Scala
+      link: "https://www.coursera.org/account/accomplishments/verify/LWFNHTAF8WNW"
+      authors: Coursera
+      conference: Sep 2017
 
-      - title: Functional Programming Principles in Scala
-        link: "https://www.coursera.org/account/accomplishments/verify/DY4LLNRHYBDG"
-        authors: Coursera
-        conference: Sep 2017
+    - title: Functional Programming Principles in Scala
+      link: "https://www.coursera.org/account/accomplishments/verify/DY4LLNRHYBDG"
+      authors: Coursera
+      conference: Sep 2017
 
-      - title: Parallel programming
-        link: "https://www.coursera.org/account/accomplishments/verify/S24M3P76L9UJ"
-        authors: Coursera
-        conference: Sep 2017
+    - title: Parallel programming
+      link: "https://www.coursera.org/account/accomplishments/verify/S24M3P76L9UJ"
+      authors: Coursera
+      conference: Sep 2017
 
-      - title: Oracle Certified Professional, Java SE 6 Programmer
-        link: "https://www.youracclaim.com/badges/024a96ac-8d4c-442c-98f9-cafba7b3bd36/linked_in_profile"
-        authors: Oracle
-        conference: Oct 2011
+    - title: Oracle Certified Professional, Java SE 6 Programmer
+      link: "https://www.youracclaim.com/badges/024a96ac-8d4c-442c-98f9-cafba7b3bd36/linked_in_profile"
+      authors: Oracle
+      conference: Oct 2011
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Haskell
-        level: 90%
+  toolset:
+    - name: Haskell
+      level: 90%
 
-      - name: Functional Programming
-        level: 95%
+    - name: Functional Programming
+      level: 95%
 
-      - name: Scala
-        level: 80%
+    - name: Scala
+      level: 80%
 
-      - name: Devops
-        level: 70%
+    - name: Devops
+      level: 70%
 
-      - name: Software Architecture
-        level: 90%
+    - name: Software Architecture
+      level: 90%
 
-      - name: Tech Lead
-        level: 60%
+    - name: Tech Lead
+      level: 60%
 
-      - name: Communication & Soft Skills
-        level: 95%
+    - name: Communication & Soft Skills
+      level: 95%
 
 footer: >
   <span class="footer__copyright">&copy; 2020 Juan Pablo Royo Sales. All rights reserved.</span>
